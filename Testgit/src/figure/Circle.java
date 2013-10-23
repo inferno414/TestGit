@@ -10,6 +10,11 @@ public class Circle implements IFigure {
 	public double GetArea(){
 		return 3.1415*r*r;
 	}
+	@Override
+	public String GetName() {
+		return "Circle";
+	}
+	
 	
 
 }

@@ -10,4 +10,8 @@ public class Triangle implements IFigure {
 	public double GetArea(){
 		return ((PS[0].x-PS[2].x)*(PS[1].y-PS[2].y)-(PS[1].x-PS[2].x)*(PS[0].y-PS[2].y))/2;
 	}
+	@Override
+	public String GetName() {
+		return "Triangle";
+	}
 }

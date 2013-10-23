@@ -10,6 +10,10 @@ public class Square implements IFigure {
 	public double GetArea(){
 		return a*a;
 	}
+	@Override
+	public String GetName() {
+		return "Square";
+	}
 	
     
 }

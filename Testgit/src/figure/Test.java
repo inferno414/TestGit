@@ -8,7 +8,7 @@ public class Test {
 		arr[1] = new Circle(new Point(3.,3.),10);
 		arr[2] = new Square(new Point(1.,2.),5.3);
 		for(int i=0; i<3;i++) {
-			System.out.println("Area "+ i + " = " + arr[i].GetArea());
+			System.out.println("Area "+ arr[i].GetName() + " = " + arr[i].GetArea());
 		}
 		
 	}

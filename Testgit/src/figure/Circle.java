@@ -8,7 +8,7 @@ public class Circle implements Figure {
 		r = R;
 	}
 	public double GetArea(){
-		return 3.14*r*r;
+		return 3.1415*r*r;
 	}
 	
 

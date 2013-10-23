@@ -1,0 +1,15 @@
+package figure;
+
+public class Circle implements Figure {
+	private Point O;
+	private double r;
+	public Circle(Point A, double R){
+		O = A;
+		r = R;
+	}
+	public double GetArea(){
+		return 3.14*r*r;
+	}
+	
+
+}

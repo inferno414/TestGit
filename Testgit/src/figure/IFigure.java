@@ -1,5 +1,5 @@
 package figure;
 
-public interface Figure {
+public interface IFigure {
 	public double GetArea();
 }

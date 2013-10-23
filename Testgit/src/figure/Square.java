@@ -1,6 +1,6 @@
 package figure;
 
-public class Square implements Figure {
+public class Square implements IFigure {
 	private Point center;
 	private double a;
 	public Square(Point P, double A){

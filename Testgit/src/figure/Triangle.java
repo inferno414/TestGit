@@ -1,6 +1,6 @@
 package figure;
 
-public class Triangle implements Figure {
+public class Triangle implements IFigure {
 	private Point PS[] = new Point[3];
 	public Triangle(Point A, Point B, Point C){
 		PS[0] = A;

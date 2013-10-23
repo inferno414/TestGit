@@ -1,6 +1,6 @@
 package figure;
 
-public class Circle implements Figure {
+public class Circle implements IFigure {
 	private Point O;
 	private double r;
 	public Circle(Point A, double R){

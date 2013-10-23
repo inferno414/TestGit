@@ -3,7 +3,9 @@ package helloworld;
 public class Helloworld {
 
 	public static void main(String[] args) {
-		System.out.println("abcjhgjj");
+		int r;
+		r = 18;
+		System.out.println("abcjhgjj" + r);
 	}
 
 }

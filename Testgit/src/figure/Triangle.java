@@ -8,7 +8,7 @@ public class Triangle implements IFigure {
 		PS[2] = C;
 	}
 	public double GetArea(){
-		return ((PS[0].x-PS[2].x)*(PS[1].y-PS[2].y)-(PS[1].x-PS[2].x)*(PS[0].y-PS[2].y))/2;
+		return ((PS[0].getX()-PS[2].getX())*(PS[1].getY()-PS[2].getY())-(PS[1].getX()-PS[2].getX())*(PS[0].getY()-PS[2].getY()))/2;
 	}
 	@Override
 	public String GetName() {

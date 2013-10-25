@@ -1,10 +1,10 @@
 package figure;
 
 public class Square implements IFigure {
-	private Point center;
+	private Point k4sh4;
 	private double a;
 	public Square(Point P, double A){
-		center = P;
+		k4sh4 = P;
         a = A;
 	}
 	public double GetArea(){

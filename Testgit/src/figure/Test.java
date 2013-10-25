@@ -1,7 +1,7 @@
 package figure;
 
 public class Test {
-
+//штанов=киска
 	public static void main(String[] args) {
 		IFigure arr[] = new IFigure[3];
 		arr[0] = new Triangle(new Point(1.4,1.), new Point(20.4,3.6),new Point(7.5,30.6));

@@ -1,5 +1,5 @@
 package figure;
-
+//штанов - киска
 public class Point {
 	private double x,y;
 	public Point(){

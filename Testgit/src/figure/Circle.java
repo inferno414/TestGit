@@ -1,5 +1,5 @@
 package figure;
-
+//ШТАНОВ - КИСКА
 public class Circle implements IFigure {
 	private Point O;
 	private double r;
